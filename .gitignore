@@ -1,0 +1,24 @@
+# сессия и секреты
+mosru_session*.json
+*.session.json
+*.session
+
+# выгрузки показаний (личные данные)
+history.json
+history.csv
+history*.json
+history*.csv
+
+# окружение и мусор
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.scratch/
+.mcp_cache/
+
+# локальные файлы разработки (не публикуются)
+mosru_client/
+example.py
+README.package.md
+config.example.json
